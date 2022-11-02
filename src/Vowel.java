@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Vowel {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
         System.out.print("Enter a lowercase word: ");
