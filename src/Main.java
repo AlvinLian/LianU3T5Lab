@@ -13,7 +13,7 @@ public class Main {
         int numAttacks = 0;
         boolean dragonSlayed = false;
 
-        while (!dragonSlayed) {
+        while (!dragonSlayed && numAttacks != 5) {
             System.out.print("\nEnter an attack amount: ");
             attackAmount = myScanner.nextInt();
             numAttacks += 1;
